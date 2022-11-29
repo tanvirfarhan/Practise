@@ -1,17 +1,16 @@
-package main 
+package main
 
 import "fmt"
 
-func main(){
+func main() {
 
-  var name string = "FARHAN"
-  var name2 , city string = "TANVIR" , "CHITTAGONG"
-  fmt.Println(name , name2, city)
+	var name string = "farhan"
 
-  var c rune = 'A'
-  var age int = 19 
-  var result float32 = 58.365
-  
-   fmt.Println(c, age, result)
+	fmt.Println(name)
 
-  } 
+	var name2 string = "TANVIR"
+	var name3, city = "ATUL", "CHITTAGONG"
+
+	fmt.Println(name, name2, name3, city)
+
+}
